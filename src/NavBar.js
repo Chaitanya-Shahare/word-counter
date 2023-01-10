@@ -1,3 +1,4 @@
+import logo from './Chaitanya.png'
 import {Link} from "react-router-dom";
 
 const NavBar = () => {
@@ -6,7 +7,9 @@ const NavBar = () => {
 			<nav className='flex flex-col items-center w-[200%]
 				md:flex-row md:justify-evenly md:py-2'>
 				<Link to="/">
-					<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Freevee_logo.svg/2560px-Freevee_logo.svg.png' 
+					{/* <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Freevee_logo.svg/2560px-Freevee_logo.svg.png' */} 
+					{/* 	className='w-36 mt-4 md:my-0 md:ml-3 '/> */}
+					<img src={logo}
 						className='w-36 mt-4 md:my-0 md:ml-3 '/>
 				</Link>
 				<ul className='text-stone-400 md:text-white flex flex-col mt-3 md:my-0 md:flex-row mx-4'>

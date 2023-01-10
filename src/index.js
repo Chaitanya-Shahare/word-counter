@@ -3,6 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Darkmode from 'darkmode-js';
+
+
+const options = {
+  bottom: '64px', // default: '32px'
+  left: 'unset', // default: '32px'
+  right: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorLight: '#100f2c',  // default: '#100f2c'
+  buttonColorDark: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  // label: '🌓', // default: ''
+  label: '🔅', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

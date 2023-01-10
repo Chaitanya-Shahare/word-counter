@@ -7,7 +7,7 @@ import Darkmode from 'darkmode-js';
 
 
 const options = {
-  bottom: '64px', // default: '32px'
+  bottom: '40px', // default: '32px'
   left: 'unset', // default: '32px'
   right: '32px', // default: 'unset'
   time: '0.5s', // default: '0.3s'

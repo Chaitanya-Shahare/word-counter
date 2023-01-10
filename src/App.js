@@ -10,7 +10,7 @@ import Footer from './Footer';
 function App() {
   return (
 	<>
-		<div className="bg-black">
+		<div className="bg-black overflow-hidden">
 			<BrowserRouter>
 				<div className="flex flex-col justify-between items-center">
 				<NavBar/>

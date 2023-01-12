@@ -30,7 +30,7 @@ const Home = () => {
 				<form className="flex flex-col items-center font-mono" onSubmit={clear}>
 					<textarea value={text} className="hidden lg:block bg-stone-800 text-white p-4 my-4 rounded-lg resize-none focus:outline-none focus:ring focus:ring-orange-300" rows={10} cols={70} onChange={hText}></textarea>
 					<textarea value={text} className="hidden sm:block lg:hidden bg-stone-800 text-white p-4 my-4 rounded-lg resize-none focus:outline-none focus:ring focus:ring-orange-300" rows={10} cols={50} onChange={hText}></textarea>
-					<textarea className="sm:hidden bg-stone-800 text-white p-4 my-4 rounded-lg resize-none focus:outline-none focus:ring focus:ring-orange-300" rows={10} cols={30} onChange={hText}></textarea>
+					<textarea value={text} className="sm:hidden bg-stone-800 text-white p-4 my-4 rounded-lg resize-none focus:outline-none focus:ring focus:ring-orange-300" rows={10} cols={30} onChange={hText}></textarea>
 					<input type="submit" value="Clear"
 						className="bg-white w-[20%] rounded-md my-2"></input>
 				</form>
